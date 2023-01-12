@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Todo List - Vee Sengwan</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>My Daily Tasks</h1>
+            <p>Enter text into the input field to add items to your list.</p>
+            <p>Click the item to mark it as complete.</p>
+            <p>Click the "X" to remove the item from your list.</p>
+        </header>
+        <div class="todo_container">
+            <div class="input_section">
+                <input type="text" name="input_field" id="input_field">
+                <i class="fa fa-pen add_button"></i>
+            </div>
+            <div class="warning">
+                <p>Oh, please put the task......</p>
+            </div>
+            <ul class="todo_center">
+                <li class="list">
+                    <span>Get the report done today</span>
+                    <i class="fa fa-times delete_task"></i>
+                </li>
+                <li class="list">
+                    <span>Banana</span>
+                    <i class="fa fa-times delete_task"></i>
+                </li>
+                <li class="list">
+                    <span>Banana</span>
+                    <i class="fa fa-times delete_task"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
